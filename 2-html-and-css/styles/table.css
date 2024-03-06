@@ -25,6 +25,10 @@ td {
     width: 25%;
 }
 
+th {
+    text-align: right;
+}
+
 
  
  td:hover {
