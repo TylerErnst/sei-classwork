@@ -1,11 +1,45 @@
+section p {
+    background-color: aquamarine;
+}
+
+section > div {
+    background-color: blueviolet;
+}
+
+/* h2 + p {
+    background-color: red;
+} */
+
+/* h2 ~ p {
+    background-color: blue;
+} */
+
 body {
     background-color: darkslategrey;
     color: black;
     font-size: 1.1em;
 }
+
+/* .header {
+    color: orange;
+} */
+
+/* #header {
+    color: blue;
+} */
+
+/* body h1 {
+    color: teal;
+} */
+
 h1 {
     color: coral;
 }
+
+h1:hover {
+    background-color: aqua;
+}
+
 #intro {
     font-size: 1.3em;
 }
@@ -14,3 +48,29 @@ h1 {
 }
 
 section { border: 5px solid black; padding: 10px; background-color:#dbfffe; }
+
+p:last-child {
+    color: rgb(52, 162, 205);
+}
+
+
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+  
