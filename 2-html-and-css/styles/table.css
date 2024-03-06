@@ -1,0 +1,34 @@
+body {
+    background-color: bisque;
+}
+
+
+
+/* table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+} */
+
+table {
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    border: 5px solid green;
+ }
+
+ td, th {
+    border: 1px solid red;
+}
+
+td {
+    width: 25%;
+}
+
+
+ 
+ td:hover {
+    background-color: lightcoral;
+    color: white;
+ }
+ 
