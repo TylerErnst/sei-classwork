@@ -1,0 +1,63 @@
+.form {
+    text-align: center;
+    margin-top: 10px;
+    background-color: white;
+    width: 300px;
+    /* height: 250px; */
+    border: 3px solid gray;
+    background-color: #CC3333;
+    box-shadow: 4px 4px 2px darkgray;
+    /* position: fixed;
+    right: 50%;
+    margin-right: -100px;
+    bottom: 50%;
+    margin-bottom: -125px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+p {
+    color: white;
+    margin: 0;
+}
+p small {
+    font-size: xx-small;
+    position: relative;
+    bottom: 20%;
+}
+p large {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+input, textarea {
+    /* text-align: center; */
+    width: 272px;
+    background-color: darkred;
+    margin-bottom: 5px;
+}
+::placeholder {
+    color: lightgray;
+    font-size: x-small;
+}
+select {
+    width: 280px;
+    color: aliceblue;
+    background-color: darkred;
+    margin-bottom: 5px;
+}
+button {
+    width: 280px;
+    color: red;
+    height: 40px;
+}
+
+img {
+    width: 25px;
+    height: 25px;
+}
+
+body {
+    background-image: url(../assignment/background.jpg);
+    background-repeat:repeat-x;
+}

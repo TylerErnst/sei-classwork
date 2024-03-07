@@ -4,7 +4,19 @@
     <meta charset="UTF-8">
     <title>Position Absolute</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet"/>
+
+
 <style>
+
+    h1 {
+        background: conic-gradient(orange, blue);
+        font-family: 'Bungee Spice';
+        text-align: center;
+        box-shadow: 2px 2px 1px rgba(100%, 50%, 50%, .33);
+    }
     /*
     Emmet shortcut mt margin top
     Emmet shortcut bgc background color
@@ -23,14 +35,17 @@
         width: 100px;
         height: 100px;
         border: 1px solid;
+        box-shadow: 2px 2px 1px rgba(8, 245, 193, 0.33);
     }
 
     .exampleBox {
-        background-color: lightcoral;
+        background-color: rgba(247, 92, 2, 0.33);
         width: 100px;
         height: 100px;
         position: absolute;
-        top: 12%;
+        top: 22%;
+        left: 50px;
+        z-index: -1;
 
     }
 </style>
