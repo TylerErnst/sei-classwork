@@ -1,10 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {  
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 1230px;
+    height: 700px;
+    /* flex-direction: row-reverse; */
+    flex-wrap: wrap; 
+    /* align-content: center;
+    justify-content: center; */
+    align-content: space-around;
+    justify-content: space-between;
+}
+
 .card-body {
     border: 1px solid black;
     width: 300px;
  }
  
  .img-container img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
  }
  
