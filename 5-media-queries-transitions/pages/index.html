@@ -6,24 +6,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        
-        #box1 {
+        div {
             height: 100px;
             width: 100px;
             border: 1px solid black;
+        }
+        #box1 {
             background-color: greenyellow;
-            transition-property: background-color;
+            transition-property: background-color, color;
             transition-duration: 500ms;
+            /* Shorthand
+            transition: background-color 500ms, color 500ms; */
         }
         #box1:hover {
             background-color: lightcyan;
+            color: lightcoral;
         }
+        #box2 {
+            background-color: yellow;
+            transition-property: font-size;
+            transition-duration: 1s;
+        }
+        #box2:hover {
+            font-size: 25pt;
+        }
+        #box3 {
+            background-color: hotpink;
+            transition: width 1s, height 1s;
+        }
+        #box3:hover {
+            width: 200px;
+            height: 200px;
+        }
+        #box4 {
+            background-color: blue;
+            color: wheat;
+            transition-duration: 1s;
+        }
+        #box4:hover {
+            transform: translateX(100px);
+        }
+        #box5 {
+            background-color: orange;
+            transition-duration: 3s;
+            transition-timing-function: ease-out;
+        }
+        #box5:hover {
+            transform: rotate(360deg);
+        }
+        #box6 {
+            color: black;
+            background-color: white;
+            border-color: #4284F4;
+            transition-property: color, background-color, border-color;
+            transition-duration: 1s;
+        }
+        #box6:hover {
+            color: white;
+            background-color: black;
+            border-color: #FFAB40;
+            transform:rotate(360deg);
+        }
+
 
     </style>
 </head>
 <body>
     <div id="box1">
-        Test
+        Hello
+    </div>
+    <div id="box2">
+        World!
+    </div>
+    <div id="box3">
+        BOX!
+    </div>
+    <div id="box4">
+        Move me!
+    </div>
+    <div id="box5">
+        Rotate me!
+    </div>
+    <div id="box6">
+        Change!
     </div>
 </body>
 </html>
