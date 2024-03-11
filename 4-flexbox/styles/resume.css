@@ -1,0 +1,92 @@
+
+body {
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    max-width: 1000px;
+    /* width: 1000px; */
+    height: 100vh;
+    border: 1px solid black;
+    background-color: rgb(32, 32, 32);
+}
+
+img {
+    height: 250px;
+}
+
+.main_container {
+    display: flex; 
+    flex-wrap: wrap;
+    align-content: flex-start;
+    border: 1px solid skyblue;
+    background-color: darkgray;
+}
+
+.section1 {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 1px solid teal
+}
+
+.profile {
+    display: flex;
+    border: 1px solid blue;
+    flex-grow: 6;
+    flex-basis: 59.8%;
+    /* width: 59.8%; */
+}
+
+.info {
+    border: 1px solid violet;
+    flex-grow: 4;
+    flex-basis: 39.8%;
+    /* width: 39.8%; */
+}
+
+.summary {
+    border: 1px solid pink;
+}
+
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    flex-grow: 7;
+    flex-basis: 69.8%;
+    /* width: 69.8%; */
+    border: 1px solid coral;
+}
+
+.employment {
+    margin-right: 2%;
+    margin-left: 2%;
+    border: 1px solid orange;
+}
+
+.education {
+    margin-right: 2%;
+    margin-left: 2%;
+    border: 1px solid red;
+}
+
+.section3 {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column wrap;
+    border: 1px solid orchid;
+    flex-grow: 3;
+    flex-basis: 29.8%;
+    /* width: 29.8%; */
+}
+
+.skills {
+    margin-right: 5%;
+    margin-left: 5%;
+    border: 1px solid magenta;
+    height: 100%;
+}
